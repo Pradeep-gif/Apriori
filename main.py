@@ -52,4 +52,4 @@ if options.mode == 'commandline':
     print(f'Total items: {len(associated_rules)}')
 else:
     from app import app
-    app.run(debug=True)
+    app.run()
